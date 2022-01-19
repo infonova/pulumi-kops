@@ -1,3 +1,3 @@
-module github.com/pulumi/pulumi-xyz/examples
+module github.com/infonova/pulumi-kops/examples
 
 go 1.16

@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/provider
+module github.com/infonova/pulumi-kops/provider
 
 go 1.16
 
@@ -8,7 +8,8 @@ replace (
 )
 
 require (
-	github.com/hashicorp/terraform-plugin-sdk v1.9.1
+	github.com/eddycharly/terraform-provider-kops v1.22.0-alpha.3
+	github.com/hashicorp/terraform-plugin-sdk v1.9.1 // indirect
 	github.com/pulumi/pulumi-terraform-bridge/v3 v3.13.0
 	github.com/pulumi/pulumi/sdk/v3 v3.19.0
 )

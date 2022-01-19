@@ -1,4 +1,4 @@
-module github.com/pulumi/pulumi-xyz/sdk
+module github.com/infonova/pulumi-kops/sdk
 
 go 1.16
 
